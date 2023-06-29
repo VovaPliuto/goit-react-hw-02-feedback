@@ -10,6 +10,10 @@ button {
   cursor: pointer;
 }
 
+button::first-letter {
+  text-transform: uppercase;
+}
+
 button:active {
   background-color: #7d7dff;
 }
